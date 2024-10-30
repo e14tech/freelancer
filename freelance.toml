@@ -1,0 +1,47 @@
+file_format = "0.1.1"
+tags = [ "Teach & Support", "Wordpress setup", "Email setup", "Other" ]
+
+[data]
+name = "Josh"
+profile_image = "https://pbs.twimg.com/profile_images/1770589290692481024/iT0dJ-CR_400x400.jpg"
+user_description = "I specialize in backend set up and management. I'm proficient with Nginx, FreeBSD, OpenBSD, and Linux. I attack my problems with security being a big focus.\n\nI have also started learning Go.\n\nI can get your shit up and running and keep it running while being secure."
+payment_methods = [ "Crypto Currency" ]
+available = true
+allow_listing = true
+hourly_rate = 20
+
+[[services]]
+category = "Teach & Support"
+sub_category = "Wordpress setup"
+title = "Getting your site up and running"
+description = " I will go through the process of installing Nginx, MariaDB, php-fpm, and WordPress and link them all together."
+price = 200
+service_image = [ "" ]
+id = "0aanv67hv"
+
+[[services]]
+category = "Teach & Support"
+sub_category = "Email setup"
+title = "Setting up email with an email provider"
+description = "I will go ahead and set up your domain to be used with an email provider.\nThis includes modifying your DNS records to incorporate the needed DKIM and SPF records among the other necessary DNS changes to provide you uninterrupted email operations."
+price = 200
+service_image = [ "" ]
+id = "oi2poeezl"
+
+[[services]]
+category = "Teach & Support"
+sub_category = "Email setup"
+title = "Setting up your own email server"
+description = "This will set up your own email server. I will install and set up Postfix with Dovecot to provide you with both an SMTP and POP/IMAP server. We can even go as far as setting you up with your own web mail access.\nThis will also require DNS record changes."
+price = 1000
+service_image = [ "" ]
+id = "yp0kyz7ci"
+
+[[services]]
+category = "Teach & Support"
+sub_category = "Other"
+title = "IT Support"
+description = "I can be your IT support.\nI can troubleshoot issues you may be experiencing and get them resolved."
+price = "500"
+service_image = [ "" ]
+id = "nfux18bcn"
